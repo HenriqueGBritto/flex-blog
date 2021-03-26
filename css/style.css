@@ -92,3 +92,40 @@ img {
     color: #122ab2;
 }
 
+/* Introdução */
+.introducao {
+    max-width: 960px;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+/* Sobre */
+.sobre {
+    max-width: 960px;
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+}
+
+.sobre-info { 
+    flex: 2;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1;
+    padding: 10px;
+}
